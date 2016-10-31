@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="j"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -27,14 +27,14 @@
 	</thead>
 	
 	<tbody>
-		<c:forEach items="${todos}" var = "todo">
+		<j:forEach items="${todos}" var = "todo">
 		<tr>
 		<td>${todo.id}</td>
 		<td>${todo.user_desc}</td>
 		<td>${todo.targetDate}
 		<td>${todo.done}</td>
 		</tr>
-		</c:forEach>
+		</j:forEach>
 	</tbody>
 	
 </table>
