@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Yahoo!!</title>
+<title>Welcome page</title>
 </head>
 <body>
 Welcome ${name}.
