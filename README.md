@@ -6,6 +6,6 @@ About the app:
 
 Users can log in and manage an items list. The items can be added/edited/deleted.
 
-Tools used : Eclipse Maven, Tomcat 7.
+Tools used : Eclipse Maven, Tomcat 7./n
 Languages - Java, JSP, XML, HTML.
 Framework - SpringMVC, Bootstrap.
