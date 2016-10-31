@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [31/Oct/2016:09:30:22 -0400] "GET /loginPage HTTP/1.1" 200 252 http-bio-8080-exec-9 45
-0:0:0:0:0:0:0:1 - - [31/Oct/2016:09:30:30 -0400] "POST /loginPage HTTP/1.1" 200 126 http-bio-8080-exec-9 8
-0:0:0:0:0:0:0:1 - - [31/Oct/2016:09:30:32 -0400] "GET /TodoList HTTP/1.1" 200 1328 http-bio-8080-exec-9 6
-0:0:0:0:0:0:0:1 - - [31/Oct/2016:09:30:34 -0400] "GET /AddTodo HTTP/1.1" 200 376 http-bio-8080-exec-9 2
-0:0:0:0:0:0:0:1 - - [31/Oct/2016:09:30:37 -0400] "POST /AddTodo HTTP/1.1" 302 - http-bio-8080-exec-9 2
-0:0:0:0:0:0:0:1 - - [31/Oct/2016:09:30:37 -0400] "GET /TodoList HTTP/1.1" 200 1432 http-bio-8080-exec-9 3
