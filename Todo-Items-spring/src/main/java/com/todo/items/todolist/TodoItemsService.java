@@ -12,10 +12,10 @@ public class TodoItemsService {
 	    private static int todoCount = 3;
 
 	    static {
-	        todos.add(new TodoItems(1, "Varun", "Learn Spring MVC", new Date(),
+	        todos.add(new TodoItems(1, "Varun", "step one", new Date(),
 	                false));
-	        todos.add(new TodoItems(2, "Varun", "Learn Struts", new Date(), false));
-	        todos.add(new TodoItems(3, "Varun", "Learn Hibernate", new Date(),
+	        todos.add(new TodoItems(2, "Varun", "step two", new Date(), false));
+	        todos.add(new TodoItems(3, "Varun", "step three", new Date(),
 	                false));
 	    }
 	    
